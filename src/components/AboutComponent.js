@@ -12,7 +12,7 @@ function About(props) {
            <Fade in>
                <Media className='mt-3' key={leader.id}>
                    <Media left top className='mr-3'>
-                       <Media object src={baseUrl + leader.image} alt={leader.name}/>
+                       <Media object src={leader.image} alt={leader.name}/>
                    </Media>
                    <Media body>
                        <Media heading>
@@ -121,4 +121,4 @@ function About(props) {
        );
    }
 }
-export default About;    
+export default About;
